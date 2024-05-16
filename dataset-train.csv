@@ -1,0 +1,1016 @@
+chat_sample, dataset_origin
+"[INST] ¿Cómo sería la expresión cron para ejecutar una tarea todos los días a las 9 de la mañana? [/INST] La expresión cron sería 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para programar una tarea cada 2 horas? [/INST] La expresión cron sería 0 */2 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute los viernes a las 4:45 PM? [/INST] La expresión cron sería 45 16 * * 5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea el primer día de cada mes a medianoche? [/INST] La expresión cron sería 0 0 1 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 15 minutos durante las horas pares del día? [/INST] La expresión cron sería */15 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea todos los años el 1 de enero a las 12:30 PM? [/INST] La expresión cron sería 30 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute los días impares del mes a las 8 de la noche? [/INST] La expresión cron sería 0 20 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos entre las 9 AM y las 5 PM, de lunes a viernes? [/INST] La expresión cron sería */5 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada dos días a las 3 de la tarde? [/INST] La expresión cron sería 0 15 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los sábados y domingos a las 10 de la mañana? [/INST] La expresión cron sería 0 10 * * 6,0.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días pares del mes a las 9 de la noche? [/INST] La expresión cron sería 0 21 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 5 minutos durante las horas impares del día? [/INST] La expresión cron sería */5 1-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 30 minutos los días de semana a partir de las 10 AM y hasta las 4 PM? [/INST] La expresión cron sería 0,30 10-16 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada hora durante los primeros 20 minutos de cada hora, solo los martes? [/INST] La expresión cron sería 0 0-19 * * 2.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días impares del mes a las 6 AM y a las 6 PM? [/INST] La expresión cron sería 0 6,18 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 10 segundos de lunes a viernes entre las 9 AM y las 5 PM? [/INST] La expresión cron sería */10 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea todos los días a las 3 de la tarde durante los primeros 10 días de cada mes? [/INST] La expresión cron sería 0 15 1-10 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 45 minutos durante las horas pares del día, todos los días? [/INST] La expresión cron sería */45 0-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días laborables a las 8:30 AM y a las 5:30 PM? [/INST] La expresión cron sería 30 8,17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada hora y media los días impares del mes? [/INST] La expresión cron sería 0 */1.5 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea todos los días a las 7 AM y a las 7 PM? [/INST] La expresión cron sería 0 7,19 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 20 minutos de lunes a viernes entre las 8 AM y las 4 PM? [/INST] La expresión cron sería */20 8-16 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los fines de semana a las 10 de la mañana y a las 3 de la tarde? [/INST] La expresión cron sería 0 10,15 * * 6,0.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada hora durante los primeros 10 minutos de cada hora, solo los jueves? [/INST] La expresión cron sería 0 0-9 * * 4.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 15 minutos los días pares del mes entre las 8 AM y las 10 AM? [/INST] La expresión cron sería */15 8-10 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 30 segundos durante las horas impares del día? [/INST] La expresión cron sería */30 1-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos los lunes, miércoles y viernes a partir de las 9 AM? [/INST] La expresión cron sería */5 9-23/2 * * 1,3,5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada hora los días impares del mes? [/INST] La expresión cron sería 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días laborables a las 8:15 AM y a las 4:15 PM? [/INST] La expresión cron sería 15 8,16 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 10 minutos los martes y jueves entre las 10 AM y las 2 PM? [/INST] La expresión cron sería */10 10-14 * * 2,4.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días pares del mes a las 10 de la noche? [/INST] La expresión cron sería 0 22 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 3 horas los días laborables entre las 9 AM y las 6 PM? [/INST] La expresión cron sería 0 */3 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 20 minutos los sábados y domingos entre las 8 AM y las 10 AM? [/INST] La expresión cron sería */20 8-10 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 30 minutos durante las horas pares del día, todos los días? [/INST] La expresión cron sería */30 0-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 15 minutos los días laborables a partir de las 9 AM y hasta las 5 PM? [/INST] La expresión cron sería */15 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 5 segundos los lunes y viernes entre las 8 AM y las 10 AM? [/INST] La expresión cron sería */5 8-10 * * 1,5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora durante los primeros 15 minutos de cada hora, solo los días pares del mes? [/INST] La expresión cron sería 0 0-14 * * 2.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 10 minutos durante los últimos 30 minutos de cada hora, todos los días? [/INST] La expresión cron sería */10 30-59 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días laborables a las 9 AM, a las 12 PM y a las 3 PM? [/INST] La expresión cron sería 0 9,12,15 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 45 minutos los martes y jueves entre las 6 AM y las 8 PM? [/INST] La expresión cron sería */45 6-20 * * 2,4.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea todos los días a las 11 PM? [/INST] La expresión cron sería 0 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 10 minutos de lunes a viernes entre las 9 AM y las 3 PM? [/INST] La expresión cron sería */10 9-15 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los sábados a las 7 AM y a las 7 PM? [/INST] La expresión cron sería 0 7,19 * * 6.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 30 minutos los días impares del mes entre las 8 AM y las 6 PM? [/INST] La expresión cron sería 0/30 8-18 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 5 minutos los domingos entre las 10 AM y las 4 PM? [/INST] La expresión cron sería */5 10-16 * * 0.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 15 minutos de lunes a viernes entre las 8 AM y las 7 PM? [/INST] La expresión cron sería */15 8-19 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los días laborables a las 9:30 AM, a las 12:30 PM y a las 3:30 PM? [/INST] La expresión cron sería 30 9,12,15 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada hora durante los primeros 20 minutos de cada hora, solo los días impares del mes? [/INST] La expresión cron sería 0 0-19 * * 1-31/2.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días de semana a las 8:15 AM y a las 5:15 PM? [/INST] La expresión cron sería 15 8,17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 3 horas los sábados y domingos entre las 10 AM y las 10 PM? [/INST] La expresión cron sería 0 */3 10-22 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días pares del mes a las 3 de la tarde? [/INST] La expresión cron sería 0 15 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 10 minutos los lunes, miércoles y viernes entre las 8 AM y las 6 PM? [/INST] La expresión cron sería */10 8-18 * * 1,3,5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los días impares del mes a las 10 AM y a las 10 PM? [/INST] La expresión cron sería 0 10,22 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada hora durante los primeros 10 minutos de cada hora, solo los martes y jueves? [/INST] La expresión cron sería 0 0-9 * * 2,4.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 20 minutos los sábados y domingos a partir de las 9 AM hasta las 3 PM? [/INST] La expresión cron sería */20 9-15 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 30 segundos de lunes a viernes entre las 9 AM y las 5 PM? [/INST] La expresión cron sería */30 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos los días laborables a partir de las 7 AM hasta las 6 PM? [/INST] La expresión cron sería */15 7-18 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 5 minutos durante las horas pares del día, todos los días? [/INST] La expresión cron sería */5 0-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los domingos a las 2 de la tarde y a las 8 de la noche? [/INST] La expresión cron sería 0 14,20 * * 0.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada hora y media los días impares del mes? [/INST] La expresión cron sería 0 */1.5 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los días laborables a las 9 AM, 12 PM, 3 PM y 6 PM? [/INST] La expresión cron sería 0 9,12,15,18 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 20 minutos los martes y jueves entre las 7 AM y las 6 PM? [/INST] La expresión cron sería */20 7-17 * * 2,4.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los días pares del mes a las 7 AM y a las 7 PM? [/INST] La expresión cron sería 0 7,19 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 45 minutos durante las horas pares del día, todos los días? [/INST] La expresión cron sería */45 0-23/2 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada hora durante los primeros 15 minutos de cada hora, solo los lunes y miércoles? [/INST] La expresión cron sería 0 0-14 * * 1,3.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 10 minutos los días laborables entre las 8 AM y las 4 PM, excepto los martes? [/INST] La expresión cron sería */10 8-16 * * 1,3-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 30 minutos los sábados y domingos entre las 9 AM y las 5 PM? [/INST] La expresión cron sería 0,30 9-16 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 20 minutos durante los últimos 30 minutos de cada hora, solo los días impares del mes? [/INST] La expresión cron sería */20 30-59 * * 1-31/2.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea todos los días a las 8 AM, 2 PM y 8 PM? [/INST] La expresión cron sería 0 8,14,20 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 10 segundos de lunes a viernes entre las 9 AM y las 5 PM? [/INST] La expresión cron sería */10 9-16 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea todos los días a las 8:30 AM, 1:30 PM y 6:30 PM? [/INST] La expresión cron sería 30 8,13,18 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 15 minutos de lunes a viernes entre las 9 AM y las 5 PM, pero solo en los primeros 10 días de cada mes? [/INST] La expresión cron sería */15 9-16 1-10 * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora durante los primeros 20 minutos de cada hora, solo los jueves y sábados? [/INST] La expresión cron sería 0 0-19 * * 4,6.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 30 minutos durante las horas pares del día, todos los días excepto los domingos? [/INST] La expresión cron sería */30 0-23/2 * * 1-6.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 10 minutos los lunes y viernes entre las 9 AM y las 3 PM, pero solo durante los últimos 15 días de cada mes? [/INST] La expresión cron sería */10 9-14 16-31 * 1,5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar en cron una tarea que se ejecute cada 5 minutos de lunes a viernes entre las 8 AM y las 6 PM, pero omitiendo los días 10 y 25 de cada mes? [/INST] La expresión cron sería */5 8-17 1-9,11-24,26-31 * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea todos los días a las 4:45 AM y a las 4:45 PM? [/INST] La expresión cron sería 45 4,16 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecute cada 20 minutos durante las últimas 20 minutos de cada hora, solo los días pares del mes? [/INST] La expresión cron sería */20 40-59 * * 2.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea los sábados y domingos a las 10:30 AM y a las 3:30 PM? [/INST] La expresión cron sería 30 10,15 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo puedo expresar en cron una tarea que se ejecute cada 2 horas de lunes a viernes entre las 8 AM y las 4 PM, pero omitiendo la última semana de cada mes? [/INST] La expresión cron sería 0 */2 1-24 * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para una tarea que se ejecuta todos los días a las 12:00 PM? [/INST] La expresión cron es 0 12 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresa en cron una tarea que se ejecuta cada 15 minutos? [/INST] La expresión cron es */15 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para una tarea que se ejecuta el primer día de cada mes a las 6:00 AM? [/INST] La expresión cron es 0 6 1 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada hora entre las 9:00 AM y las 5:00 PM, ¿cómo se expresa en cron? [/INST] La expresión cron es 0 9-17 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresa en cron una tarea que se ejecuta cada domingo a las 9:30 PM? [/INST] La expresión cron es 30 21 * * 0.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecuta a las 3:45 AM, pero solo en los meses de junio y julio? [/INST] La expresión cron es 45 3 * 6,7 *.[/END]", gestorjobs
+"[INST] ¿Cómo se representa en cron una tarea que se ejecuta cada 2 horas los días pares a partir de las 8:00 AM? [/INST] La expresión cron es 0 */2 8-18 */2 *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecuta el último día de cada mes a las 11:59 PM? [/INST] La expresión cron es 59 23 28-31 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos, pero solo los días laborables (de lunes a viernes), ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecuta cada hora, pero solo durante los meses de primavera (marzo, abril y mayo)? [/INST] La expresión cron es 0 * * 3-5 *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 30 minutos los días laborables a partir de las 9:00 AM? [/INST] La expresión cron es 0,30 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 5 horas los días pares del mes, ¿cómo sería en expresión cron? [/INST] La expresión cron es 0 */5 * * */2.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute cada minuto solo los días impares del mes? [/INST] La expresión cron es * * * * */2.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 10 segundos durante las primeras 2 horas del día? [/INST] La expresión cron es */10 0-1 * * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada hora, pero solo los días 10 y 20 de cada mes, ¿cómo sería en expresión cron? [/INST] La expresión cron es 0 * 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para una tarea que se ejecuta a las 7:00 AM cada dos días? [/INST] La expresión cron es 0 7 */2 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 15 minutos de lunes a viernes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada hora durante la semana laboral (de lunes a viernes) pero solo entre las 9:00 AM y las 5:00 PM? [/INST] La expresión cron es 0 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 12:00 PM el primer día de cada mes? [/INST] La expresión cron es 0 12 1 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 5 minutos pero solo los fines de semana, ¿cómo se expresaría en cron? [/INST] La expresión cron es */5 * * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo se expresa en cron una tarea que se ejecuta cada 20 minutos durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada hora los días 15 y 30 de cada mes, ¿cómo sería en expresión cron? [/INST] La expresión cron es 0 * 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 4:00 AM los días impares del mes? [/INST] La expresión cron es 0 4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 10 minutos durante las primeras 3 horas del día, solo los fines de semana? [/INST] La expresión cron es */10 0-2 * * 6,7.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada hora los días laborables pero solo en el mes de agosto, ¿cómo sería en expresión cron? [/INST] La expresión cron es 0 * * 8 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para una tarea que se ejecuta cada 5 minutos de 8:00 AM a 6:00 PM? [/INST] La expresión cron es */5 8-18 * * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada hora los días laborables pero excluyendo los días 15 y 30 de cada mes, ¿cómo sería en expresión cron? [/INST] La expresión cron es 0 * * * 1-5,6-14,16-29,31.[/END]", gestorjobs
+"[INST] ¿Cómo se expresa en cron una tarea que se ejecuta a las 3:30 AM los últimos 5 días del mes? [/INST] La expresión cron es 30 3 27-31 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 15 minutos pero solo en los meses pares, ¿cómo sería en expresión cron? [/INST] La expresión cron es */15 * * */2 *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 9:00 AM y 9:00 PM todos los días? [/INST] La expresión cron es 0 9,21 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 30 minutos los fines de semana? [/INST] La expresión cron es */30 * * * 6,7.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 3 horas los días laborables a partir de las 9:00 AM, ¿cómo se expresaría en cron? [/INST] La expresión cron es 0 9-17/3 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 12:00 PM todos los días excepto los martes? [/INST] La expresión cron es 0 12 * * 0,2-6.[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada hora durante los primeros 10 días de cada mes? [/INST] La expresión cron es 0 * 1-10 * *.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 20 minutos pero solo en los meses de invierno (diciembre, enero y febrero), ¿cómo se expresaría en cron? [/INST] La expresión cron es */20 * * 12-2 *.[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 6:00 AM los días laborables pero no los viernes? [/INST] La expresión cron es 0 6 * * 1-4.[/END]", gestorjobs
+"[INST] ¿Cómo se expresa en cron una tarea que se ejecuta cada 2 horas durante todo el día los sábados? [/INST] La expresión cron es 0 */2 * * 6.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 5 minutos durante las últimas 3 horas del día, ¿cómo se expresaría en cron? [/INST] La expresión cron es */5 21-23 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para una tarea que se ejecuta a las 7:30 AM los días laborables pero no los jueves? [/INST] La expresión cron es 30 7 * * 1-3,5.[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos los primeros 10 días de cada mes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * 1-10 * *.[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los lunes a las 8:00 AM? [/INST] Sí, la expresión cron para eso sería ""0 8 * * 1"".[/END]", gestorjobs
+"[INST] ¿Podrías decirme la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 15 minutos? [/INST] La expresión cron para ejecutar una tarea cada 15 minutos sería ""*/15 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada martes y jueves a las 10:00 AM? [/INST] La expresión cron para ejecutar una tarea cada martes y jueves a las 10:00 AM sería ""0 10 * * 2,4"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 12:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 12:00 PM sería ""0 12 * * 0"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script el primer día del año a las 00:01 AM? [/INST] Claro, la expresión cron para ejecutar un script el primer día del año a las 00:01 AM sería ""1 0 1 1 *"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los jueves a las 18:30 horas? [/INST] La expresión cron para ejecutar un script todos los jueves a las 18:30 horas sería ""30 18 * * 4"".[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea el último día de cada mes a las 23:59 horas? [/INST] La expresión cron para ejecutar una tarea el último día de cada mes a las 23:59 horas sería ""59 23 28-31 * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 5 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 horas sería ""0 */5 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea el primer lunes de cada mes a las 7:00 PM? [/INST] La expresión cron sería ""0 19 * * 1#1"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 30 minutos, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 30 minutos sería ""*/30 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los días laborables a las 9:00 AM, ¿puedes decirme la expresión cron para eso? [/INST] Claro, la expresión cron para ejecutar un script todos los días laborables a las 9:00 AM sería ""0 9 * * 1-5"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 5 horas? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 horas sería ""0 */5 * * *"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script el último día laborable de cada mes a las 17:00 horas? [/INST] La expresión cron para ejecutar un script el último día laborable de cada mes a las 17:00 horas sería ""0 17 * * 1-5 L"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada primer día del mes a las 10:30 AM, ¿puedes ayudarme con eso? [/INST] Claro, sería ""30 10 1 * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para ejecutar una tarea cada 15 minutos? [/INST] La expresión cron para ejecutar una tarea cada 15 minutos sería ""*/15 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada martes y jueves a las 10:00 AM? [/INST] La expresión cron para ejecutar una tarea cada martes y jueves a las 10:00 AM sería ""0 10 * * 2,4"".[/END]", gestorjobs
+"[INST] ¿Podrías decirme la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos? [/INST] La expresión cron para ejecutar una tarea cada 5 minutos sería ""*/5 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los viernes a las 8:00 AM? [/INST] Sí, la expresión cron para eso sería ""0 8 * * 5"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los días a las 9:30 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los días a las 9:30 AM sería ""30 9 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script el primer día de cada mes a las 00:00 AM? [/INST] Claro, la expresión cron para eso sería ""0 0 1 * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los sábados y domingos a las 20:00 horas? [/INST] La expresión cron para ejecutar un script todos los sábados y domingos a las 20:00 horas sería ""0 20 * * 6,0"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 10 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 10 minutos sería ""*/10 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los días laborables a las 8:30 AM, ¿puedes decirme la expresión cron para eso? [/INST] Claro, la expresión cron para ejecutar un script todos los días laborables a las 8:30 AM sería ""30 8 * * 1-5"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los primeros días del mes a las 6:00 AM? [/INST] Sí, la expresión cron para eso sería ""0 6 1 * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 20 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 20 minutos sería ""*/20 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los lunes a las 7:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los lunes a las 7:00 AM sería ""0 7 * * 1"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días laborables a las 12:00 PM? [/INST] La expresión cron para ejecutar un script todos los días laborables a las 12:00 PM sería ""0 12 * * 1-5"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 3 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 3 horas sería ""0 */3 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los días a las 3:00 AM? [/INST] Sí, la expresión cron para eso sería ""0 3 * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 9:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 9:00 AM sería ""0 9 * * 0"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 7:30 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 7:30 PM sería ""30 19 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 45 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 45 minutos sería ""*/45 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los días a las 5:00 AM, ¿puedes decirme la expresión cron para eso? [/INST] Claro, la expresión cron para ejecutar un script todos los días a las 5:00 AM sería ""0 5 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos? [/INST] La expresión cron para ejecutar una tarea cada 15 minutos sería ""*/15 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los días laborables a las 10:00 AM? [/INST] Sí, la expresión cron para ejecutar un script todos los días laborables a las 10:00 AM sería ""0 10 * * 1-5"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los martes a las 6:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los martes a las 6:00 AM sería ""0 6 * * 2"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días laborables a las 11:30 AM? [/INST] La expresión cron para ejecutar un script todos los días laborables a las 11:30 AM sería ""30 11 * * 1-5"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 2 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 2 horas sería ""0 */2 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 30 minutos? [/INST] La expresión cron para ejecutar una tarea cada 30 minutos sería ""*/30 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los sábados a las 10:00 AM? [/INST] Sí, la expresión cron para eso sería ""0 10 * * 6"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 7:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 7:00 AM sería ""0 7 * * 0"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 4:30 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 4:30 PM sería ""30 16 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos? [/INST] La expresión cron para ejecutar una tarea cada 5 minutos sería ""*/5 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 20 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 20 minutos sería ""*/20 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los viernes a las 8:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los viernes a las 8:00 AM sería ""0 8 * * 5"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 3 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 3 horas sería ""0 */3 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los días laborables a las 12:00 PM? [/INST] Sí, la expresión cron para ejecutar un script todos los días laborables a las 12:00 PM sería ""0 12 * * 1-5"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los lunes a las 9:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los lunes a las 9:00 AM sería ""0 9 * * 1"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 3:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 3:00 AM sería ""0 3 * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora en punto? [/INST] La expresión cron para ejecutar una tarea cada hora en punto sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 10 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 10 minutos sería ""*/10 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los miércoles a las 11:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los miércoles a las 11:00 AM sería ""0 11 * * 3"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 45 minutos? [/INST] La expresión cron para ejecutar una tarea cada 45 minutos sería ""*/45 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los días a las 9:00 PM? [/INST] Sí, la expresión cron para ejecutar un script todos los días a las 9:00 PM sería ""0 21 * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 5:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 5:00 PM sería ""0 17 * * 0"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días laborables a las 2:30 PM? [/INST] La expresión cron para ejecutar un script todos los días laborables a las 2:30 PM sería ""30 14 * * 1-5"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 6 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 6 horas sería ""0 */6 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los sábados a las 3:00 PM? [/INST] Sí, la expresión cron para ejecutar un script todos los sábados a las 3:00 PM sería ""0 15 * * 6"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los viernes a las 6:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los viernes a las 6:00 AM sería ""0 6 * * 5"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 8:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 8:00 AM sería ""0 8 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 12 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 12 horas sería ""0 */12 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 7 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 7 minutos sería ""*/7 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los jueves a las 4:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los jueves a las 4:00 PM sería ""0 16 * * 4"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 1:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 1:00 AM sería ""0 1 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 8 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 8 horas sería ""0 */8 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los domingos a las 12:00 PM? [/INST] Sí, la expresión cron para ejecutar un script todos los domingos a las 12:00 PM sería ""0 12 * * 0"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los martes a las 3:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los martes a las 3:00 AM sería ""0 3 * * 2"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 6:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 6:00 PM sería ""0 18 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 4 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 4 horas sería ""0 */4 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 25 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 25 minutos sería ""*/25 * * * *"".[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos? [/INST] La expresión cron para ejecutar una tarea cada 15 minutos sería ""*/15 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los días a las 10:00 AM? [/INST] Sí, la expresión cron para ejecutar un script todos los días a las 10:00 AM sería ""0 10 * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los sábados a las 6:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los sábados a las 6:00 PM sería ""0 18 * * 6"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 3:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 3:00 PM sería ""0 15 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 3 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 3 horas sería ""0 */3 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los domingos a las 9:00 AM? [/INST] Sí, la expresión cron para ejecutar un script todos los domingos a las 9:00 AM sería ""0 9 * * 0"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los viernes a las 5:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los viernes a las 5:00 PM sería ""0 17 * * 5"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 7:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 7:00 AM sería ""0 7 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 2 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 2 horas sería ""0 */2 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 20 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 20 minutos sería ""*/20 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los jueves a las 7:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los jueves a las 7:00 PM sería ""0 19 * * 4"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 4:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 4:00 AM sería ""0 4 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada hora, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada hora sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías ayudarme a crear una expresión cron para ejecutar un script todos los sábados a las 8:00 AM? [/INST] Sí, la expresión cron para ejecutar un script todos los sábados a las 8:00 AM sería ""0 8 * * 6"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los martes a las 5:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los martes a las 5:00 PM sería ""0 17 * * 2"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 11:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 11:00 PM sería ""0 23 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 30 minutos, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 30 minutos sería ""*/30 * * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 10 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 10 minutos sería ""*/10 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 8:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 8:00 PM sería ""0 20 * * 0"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 6:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 6:00 AM sería ""0 6 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 5 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 horas sería ""0 */5 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 1 hora? [/INST] Sí, la expresión cron para ejecutar una tarea cada 1 hora sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los jueves a las 9:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los jueves a las 9:00 AM sería ""0 9 * * 4"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 1:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 1:00 PM sería ""0 13 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 4 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 4 horas sería ""0 */4 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 45 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 45 minutos sería ""*/45 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los sábados a las 3:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los sábados a las 3:00 PM sería ""0 15 * * 6"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 8:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 8:00 PM sería ""0 20 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 6 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 6 horas sería ""0 */6 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 5 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 minutos sería ""*/5 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los viernes a las 8:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los viernes a las 8:00 AM sería ""0 8 * * 5"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 2:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 2:00 AM sería ""0 2 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 12 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 12 horas sería ""0 */12 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 3 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 3 minutos sería ""*/3 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los lunes a las 3:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los lunes a las 3:00 PM sería ""0 15 * * 1"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 5:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 5:00 AM sería ""0 5 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 8 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 8 horas sería ""0 */8 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 7 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 7 minutos sería ""*/7 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los sábados a las 10:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los sábados a las 10:00 PM sería ""0 22 * * 6"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 9:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 9:00 AM sería ""0 9 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 2 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 2 horas sería ""0 */2 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 15 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 15 minutos sería ""*/15 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los viernes a las 5:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los viernes a las 5:00 PM sería ""0 17 * * 5"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 7:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 7:00 PM sería ""0 19 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 3 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 3 horas sería ""0 */3 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 10 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 10 minutos sería ""*/10 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los domingos a las 8:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los domingos a las 8:00 AM sería ""0 8 * * 0"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 6:00 AM? [/INST] La expresión cron para ejecutar un script todos los días a las 6:00 AM sería ""0 6 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 5 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 horas sería ""0 */5 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 1 hora? [/INST] Sí, la expresión cron para ejecutar una tarea cada 1 hora sería ""0 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los jueves a las 9:00 AM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los jueves a las 9:00 AM sería ""0 9 * * 4"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 1:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 1:00 PM sería ""0 13 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 4 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 4 horas sería ""0 */4 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 45 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 45 minutos sería ""*/45 * * * *"".[/END]", gestorjobs
+"[INST] Quiero ejecutar un script todos los sábados a las 3:00 PM, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron para ejecutar un script todos los sábados a las 3:00 PM sería ""0 15 * * 6"".[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una expresión cron para ejecutar un script todos los días a las 8:00 PM? [/INST] La expresión cron para ejecutar un script todos los días a las 8:00 PM sería ""0 20 * * *"".[/END]", gestorjobs
+"[INST] Necesito una expresión cron que ejecute una tarea cada 6 horas, ¿puedes ayudarme a crearla? [/INST] Sí, la expresión cron para ejecutar una tarea cada 6 horas sería ""0 */6 * * *"".[/END]", gestorjobs
+"[INST] ¿Podrías darme la expresión cron para ejecutar una tarea cada 5 minutos? [/INST] Sí, la expresión cron para ejecutar una tarea cada 5 minutos sería ""*/5 * * * *"".[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos pero solo los días pares del mes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * */2 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 9:00 AM los días laborables pero no los viernes? [/INST] La expresión cron es 0 9 * * 1-4 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 30 minutos pero solo durante las últimas 4 horas del día, ¿cómo se expresaría en cron? [/INST] La expresión cron es */30 20-23 * * * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada hora durante los primeros 5 días de la semana? [/INST] La expresión cron es 0 * 1-5 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 3:00 PM todos los días excepto los sábados? [/INST] La expresión cron es 0 15 * * 0-6 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos pero solo durante los meses de primavera (marzo, abril y mayo), ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * * 3-5 * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 3 horas pero solo los días 10 y 20 de cada mes? [/INST] La expresión cron es 0 */3 10,20 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 6:00 AM solo los lunes? [/INST] La expresión cron es 0 6 * * 1 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 15 minutos pero solo los días impares del mes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */15 * */2 * * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 20 minutos pero solo los días pares del mes? [/INST] La expresión cron es */20 * */2 * * .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos pero solo los días pares del mes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * */2 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 9:00 AM los días laborables pero no los viernes? [/INST] La expresión cron es 0 9 * * 1-4 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 30 minutos pero solo durante las últimas 4 horas del día, ¿cómo se expresaría en cron? [/INST] La expresión cron es */30 20-23 * * * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada hora durante los primeros 5 días de la semana? [/INST] La expresión cron es 0 * 1-5 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 3:00 PM todos los días excepto los sábados? [/INST] La expresión cron es 0 15 * * 0-6 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 10 minutos pero solo durante los meses de primavera (marzo, abril y mayo), ¿cómo se expresaría en cron? [/INST] La expresión cron es */10 * * 3-5 * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 3 horas pero solo los días 10 y 20 de cada mes? [/INST] La expresión cron es 0 */3 10,20 * * .[/END]", gestorjobs
+"[INST] ¿Cuál sería la expresión cron para una tarea que se ejecute a las 6:00 AM solo los lunes? [/INST] La expresión cron es 0 6 * * 1 .[/END]", gestorjobs
+"[INST] Si quiero una tarea que se ejecute cada 15 minutos pero solo los días impares del mes, ¿cómo se expresaría en cron? [/INST] La expresión cron es */15 * */2 * * .[/END]", gestorjobs
+"[INST] ¿Cómo se expresaría en cron una tarea que se ejecuta cada 20 minutos pero solo los días pares del mes? [/INST] La expresión cron es */20 * */2 * * .[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora, ¿cómo lo hago en cron? [/INST] En cron, simplemente escribirías 0 * * * * .[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada día a las 9:30 AM? [/INST] Claro, en cron, usarías la expresión 30 9 * * * .[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada semana, ¿cómo se hace en cron? [/INST] En cron, podrías escribir 0 0 * * 0 .[/END]", gestorjobs
+"[INST] ¿Cómo puedo hacer que una tarea se ejecute cada mes el día 15 a las 5:00 PM? [/INST] En cron, sería algo así como 0 17 15 * * .[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada año el primer día del mes a las 8:00 AM, ¿cómo se hace? [/INST] En cron, usarías 0 8 1 * * .[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada minuto? [/INST] En cron, simplemente usarías * * * * * .[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada noche a las 11:00 PM, ¿cómo lo hago en cron? [/INST] En cron, escribirías algo como 0 23 * * * .[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada 6 horas? [/INST] Claro, en cron, usarías algo como 0 */6 * * * .[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada domingo a las 3:00 PM, ¿cómo lo hago en cron? [/INST] En cron, sería algo así como 0 15 * * 0 .[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada día a las 2:30 AM? [/INST] En cron, simplemente usarías 30 2 * * * .[/END]", gestorjobs
+"[INST] ¿Cómo puedo hacer que una tarea se ejecute cada 15 minutos? [/INST] La expresión cron es */15 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 8:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 10:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada mes el día 1 a las 12:00 PM? [/INST] La expresión cron es 0 12 1 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada año el 1 de enero a las 12:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada día a las 6:30 PM? [/INST] La expresión cron es 30 18 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo hacer que una tarea se ejecute cada 30 minutos? [/INST] La expresión cron es */30 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 7:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada mes el día 1 a las 12:00 PM? [/INST] La expresión cron es 0 12 1 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada año el 1 de enero a las 12:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada día a las 6:30 PM? [/INST] La expresión cron es 30 18 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 8:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada día a las 12:00 PM? [/INST] La expresión cron es 0 12 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada semana los domingos a las 6:00 AM? [/INST] La expresión cron es 0 6 * * 0.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada mes el día 15 a las 3:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 15 15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada año el 1 de enero a las 12:00 AM? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea que se ejecute cada 15 minutos? [/INST] La expresión cron es */15 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 7:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada semana los domingos a las 6:00 AM? [/INST] La expresión cron es 0 6 * * 0.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada mes el día 15 a las 3:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 15 15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada año el 1 de enero a las 12:00 AM? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea que se ejecute cada 30 minutos? [/INST] La expresión cron es */30 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 8:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada semana los domingos a las 6:00 AM? [/INST] La expresión cron es 0 6 * * 0.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada mes el día 15 a las 3:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 15 15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada año el 1 de enero a las 12:00 AM? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 10 minutos? [/INST] La expresión cron es */10 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 7:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada semana los domingos a las 6:00 AM? [/INST] La expresión cron es 0 6 * * 0.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada mes el día 15 a las 3:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 15 15 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 20 minutos? [/INST] La expresión cron es */20 * * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 6:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 6 * * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada hora? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los lunes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada semana los domingos a las 6:00 AM? [/INST] La expresión cron es 0 6 * * 0.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada mes el día 15 a las 3:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 15 15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes decirme cómo se programa una tarea para que se ejecute cada año el 1 de enero a las 12:00 AM? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los viernes a las 9:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el día 25 de diciembre a las 8:00 AM? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute todos los días a las 11:30 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 30 23 * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora en punto, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 * * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada año el 1 de enero a medianoche? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada minuto, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron es * * * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute el primer día de cada mes a las 6:00 AM? [/INST] La expresión cron es 0 6 1 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 30 minutos, ¿cómo lo hago en cron? [/INST] La expresión cron es */30 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada semana el sábado a las 9:00 PM? [/INST] La expresión cron es 0 21 * * 6.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada año el día de mi cumpleaños a las 12:00 PM? [/INST] La expresión cron es 0 12 * * * (aquí el día y mes de tu cumpleaños).[ /END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute todos los días laborables a las 10:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada quince minutos? [/INST] La expresión cron es */15 * * * *.[/END]", gestorjobs
+"[INST] Quiero programar una tarea que se ejecute el último día de cada mes a medianoche, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 0 L * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute todos los días a las 3:30 PM? [/INST] La expresión cron es 30 15 * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 5 minutos, ¿cuál es la expresión cron adecuada? [/INST] La expresión cron es */5 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada hora a las 15 minutos? [/INST] La expresión cron es 15 * * * *.[/END]", gestorjobs
+"[INST] Necesito programar una tarea para que se ejecute el primer día laborable de cada mes a las 8:00 AM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada día a las 12:00 AM? [/INST] La expresión cron es 0 0 * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos durante las horas laborables, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada año el último día de diciembre a las 11:59 PM? [/INST] La expresión cron es 59 23 31 12 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada fin de semana a las 7:30 AM? [/INST] La expresión cron es 30 7 * * 6,0.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada día a las 4:45 PM durante la semana laboral? [/INST] La expresión cron es 45 16 * * 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 horas, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */2 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute el primer día de cada mes a las 12:00 PM? [/INST] La expresión cron es 0 12 1 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 10 segundos, ¿cuál sería la expresión cron adecuada? [/INST] La expresión cron es * * * * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 15 minutos durante las horas pares? [/INST] La expresión cron es */15 */2 * * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada día a las 11:11 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 11 23 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada año el último viernes de noviembre a las 8:00 AM? [/INST] La expresión cron es 0 8 * 11 5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 3 horas, pero solo los días pares del mes? [/INST] La expresión cron es 0 */3 */2 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 30 segundos, ¿cómo lo hago en cron? [/INST] La expresión cron es * * * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada año el primer día de marzo a las 6:30 AM? [/INST] La expresión cron es 30 6 1 3 *.[/END]", gestorjobs
+"[INST] Quiero programar una tarea que se ejecute cada domingo y miércoles a las 9:45 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 45 21 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 5 días a las 10:30 AM? [/INST] La expresión cron es 30 10 */5 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas durante los días laborables, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */2 * * 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos, pero solo los días impares del mes, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */10 * */2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute todos los días a las 4:00 AM, pero solo en diciembre? [/INST] La expresión cron es 0 4 * 12 *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada mes el día 20 a las 8:15 AM? [/INST] La expresión cron es 15 8 20 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 3 minutos durante la primera hora de cada día, ¿cómo lo hago en cron? [/INST] La expresión cron es */3 0 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 6 horas los sábados y domingos? [/INST] La expresión cron es 0 */6 * * 6,0.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 45 minutos, pero solo en enero, febrero y marzo, ¿cómo lo hago en cron? [/INST] La expresión cron es */45 * * 1-3 *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada día a las 2:30 PM durante el mes de agosto? [/INST] La expresión cron es 30 14 * 8 *.[/END]", gestorjobs
+"[INST] Quiero programar una tarea que se ejecute cada 3 días a las 7:00 PM, pero solo los meses impares, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */3 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 10 minutos, pero solo los días pares del mes, excepto los fines de semana? [/INST] La expresión cron es */10 * */2 * 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora los días laborables, pero solo durante las primeras 8 horas del día, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 0-7 * * 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */20 6-11 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada día a las 3:30 AM, pero solo durante los meses pares del año? [/INST] La expresión cron es 30 3 * */2 *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 10 minutos durante los primeros 30 minutos de cada hora, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada año el día 29 de febrero a las 6:00 AM? [/INST] La expresión cron es 0 6 29 2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 5 horas durante la tarde, es decir, desde las 12:00 PM hasta las 8:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */5 12-19 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 30 minutos, pero solo los fines de semana? [/INST] La expresión cron es */30 * * * 6,0.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 10 segundos, pero solo durante las primeras 5 horas del día, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 0-4 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de mayo? [/INST] La expresión cron es */10 * * 5 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los días laborables, pero solo después de las 9:00 AM? [/INST] La expresión cron es 0 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 20 minutos durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días pares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es */20 6-11 */2 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 3:45 PM, pero solo los meses impares, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 45 15 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 5 minutos, pero solo los lunes, miércoles y viernes? [/INST] La expresión cron es */5 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 30 minutos durante el horario de oficina, es decir, desde las 9:00 AM hasta las 5:00 PM, pero solo los días hábiles del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es */30 9-16 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 2 horas, pero solo los sábados? [/INST] La expresión cron es 0 */2 * * 6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos durante la noche, es decir, desde las 10:00 PM hasta las 6:00 AM, pero solo los días pares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es */15 22-5 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 10 minutos, pero solo durante los días impares del mes de abril? [/INST] La expresión cron es */10 * * 4 */2.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora los días laborables, pero solo después de las 8:00 AM y antes de las 6:00 PM, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8-17 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los meses de verano (junio, julio y agosto)? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 15 minutos los días laborables, pero solo durante las horas pares del día? [/INST] La expresión cron es */15 */2 * * 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 9:00 AM, pero solo los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días pares del mes, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante los fines de semana? [/INST] La expresión cron es */20 * * * 6,7.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas durante la tarde, es decir, desde las 12:00 PM hasta las 8:00 PM, pero solo los días laborables del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 12-19 * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos, pero solo durante los meses de invierno (diciembre, enero y febrero)? [/INST] La expresión cron es */5 * * 12-2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 30 minutos los días laborables, pero solo durante las primeras 6 horas del día, ¿cómo lo hago en cron? [/INST] La expresión cron es */30 0-5 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada hora, pero solo los sábados y domingos? [/INST] La expresión cron es 0 * * * 6,7.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 días a las 4:00 PM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 16 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días impares del mes de marzo? [/INST] La expresión cron es */10 * * 3 */2.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas impares del día? [/INST] La expresión cron es */20 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 6 horas, pero solo los días pares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */6 */2 * *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 30 minutos durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */30 6-11 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los fines de semana? [/INST] La expresión cron es 0 * * * 6,7.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 10 minutos durante la noche, es decir, desde las 10:00 PM hasta las 6:00 AM, pero solo los días laborables del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 22-23,0-5 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de abril? [/INST] La expresión cron es */15 * * 4 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 8:00 AM, pero solo durante los meses de verano (junio, julio y agosto), ¿cómo lo hago en cron? [/INST] La expresión cron es 0 8 */2 6-8 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 45 minutos, pero solo los días impares del mes de septiembre? [/INST] La expresión cron es */45 * * 9 */2.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 20 minutos, pero solo durante los días pares del mes de diciembre? [/INST] La expresión cron es */20 * * 12 */2.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */30 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de abril, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 4 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de mayo? [/INST] La expresión cron es */15 * * 5 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de junio? [/INST] La expresión cron es */40 * * 6 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de julio, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 7 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de agosto? [/INST] La expresión cron es */10 * * 8 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de septiembre? [/INST] La expresión cron es */30 * * 9 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */30 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */30 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */30 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 45 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */45 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 9:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 9 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo durante los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos, pero solo los días laborables del mes de marzo? [/INST] La expresión cron es */30 * * 3 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 días a las 10:00 AM, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 10 */3 */2 *.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada hora durante la mañana, es decir, desde las 6:00 AM hasta las 12:00 PM, pero solo los días laborables del mes de octubre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 6-11 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 20 minutos, pero solo durante las horas pares del día? [/INST] La expresión cron es */20 */2 * * *.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas, pero solo los días impares del mes, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 */2 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 15 minutos, pero solo los días laborables del mes de noviembre? [/INST] La expresión cron es */15 * * 11 1-5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 días a las 7:00 PM, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 19 */2 */2 *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo programar una tarea para que se ejecute cada 40 minutos, pero solo los días laborables del mes de diciembre? [/INST] La expresión cron es */40 * * 12 1-5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada hora durante la tarde, es decir, desde las 12:00 PM hasta las 6:00 PM, pero solo los días laborables del mes de enero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 * 12-17 1 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos, pero solo los días laborables del mes de febrero? [/INST] La expresión cron es */10 * * 2 1-5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y martes? [/INST] La expresión cron es 0 * * * 1,2.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 30 minutos los miércoles y jueves, ¿cómo lo hago en cron? [/INST] La expresión cron es */30 * * * 3,4.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 2 horas los viernes y sábados, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */2 * * 5,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 15 minutos los sábados y domingos? [/INST] La expresión cron es */15 * * * 6,7.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los lunes, miércoles y viernes, pero solo durante los meses de enero y febrero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 * 1,2 1-31/2 1,3,5.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los martes y jueves, pero solo durante los meses de marzo, abril y mayo, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */10 * * 3-5 2,4.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes, jueves y domingo? [/INST] La expresión cron es 0 * * * 1,4,7.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses pares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */3 * */2 * 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los martes y sábados, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es */20 * * */2 * 2,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y viernes, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es 0 * * 9-11 1,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes? [/INST] La expresión cron es */30 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses impares del año, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */2 * */2 * 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de verano (junio, julio y agosto), ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */15 * * 6-8 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de invierno (diciembre, enero y febrero)? [/INST] La expresión cron es */40 * * 12-2 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de primavera (marzo, abril y mayo), ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */3 * 3-5 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de otoño (septiembre, octubre y noviembre), ¿cómo lo hago en cron? [/INST] La expresión cron es */20 * * 9-11 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es 0 * * 12-2 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de marzo, abril y mayo, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 * 3-5 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de junio, julio y agosto, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 * * 6-8 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es */50 * * 9-11 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */30 * * 3-5 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses de junio, julio y agosto, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */2 * 6-8 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de septiembre, octubre y noviembre, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */15 * * 9-11 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es */40 * * 12-2 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de marzo, abril y mayo, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */3 * 3-5 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de junio, julio y agosto, ¿cómo lo hago en cron? [/INST] La expresión cron es */20 * * 6-8 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es 0 * * 9-11 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de diciembre, enero y febrero, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 * 12-2 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de marzo, abril y mayo, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 * * 3-5 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de junio, julio y agosto? [/INST] La expresión cron es */50 * * 6-8 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes, pero solo durante los meses de junio, julio y agosto? [/INST] La expresión cron es */30 * * 6-8 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses de septiembre, octubre y noviembre, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */2 * 9-11 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de diciembre, enero y febrero, ¿cuál es la expresión cron correspondiente? [/INST] La expresión cron es */15 * * 12-2 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */40 * * 3-5 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de junio, julio y agosto, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */3 * 6-8 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de septiembre, octubre y noviembre, ¿cómo lo hago en cron? [/INST] La expresión cron es */20 * * 9-11 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es 0 * * 12-2 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de marzo, abril y mayo, ¿cómo lo hago en cron? [/INST] La expresión cron es 0 */4 * 3-5 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de junio, julio y agosto, ¿cómo lo hago en cron? [/INST] La expresión cron es */10 * * 6-8 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es */50 * * 9-11 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */30 * * 3-5 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */2 * 6-8 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de diciembre, enero y febrero. ¿Cuál sería la expresión cron adecuada? [/INST] La expresión cron es */15 * * 12-2 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */40 * * 3-5 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es 0 */3 * 6-8 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de septiembre, octubre y noviembre. ¿Cómo se define en cron? [/INST] La expresión cron es */20 * * 9-11 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es 0 * * 12-2 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de marzo, abril y mayo. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */4 * 3-5 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es */10 * * 6-8 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es */50 * * 9-11 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */30 * * 3-5 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */2 * 6-8 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de diciembre, enero y febrero. ¿Cuál sería la expresión cron adecuada? [/INST] La expresión cron es */15 * * 12-2 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */40 * * 3-5 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es 0 */3 * 6-8 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de septiembre, octubre y noviembre. ¿Cómo se define en cron? [/INST] La expresión cron es */20 * * 9-11 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es 0 * * 12-2 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de marzo, abril y mayo. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */4 * 3-5 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es */10 * * 6-8 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es */50 * * 9-11 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 30 minutos los lunes, miércoles y viernes, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */30 * * 3-5 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 2 horas los martes, jueves y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */2 * 6-8 2,4,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 15 minutos los domingos y lunes, pero solo durante los meses de diciembre, enero y febrero. ¿Cuál sería la expresión cron adecuada? [/INST] La expresión cron es */15 * * 12-2 0,1.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 40 minutos los martes y jueves, pero solo durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */40 * * 3-5 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 3 horas los miércoles, viernes y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es 0 */3 * 6-8 3,5,6.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 20 minutos los jueves y viernes, pero solo durante los meses de septiembre, octubre y noviembre. ¿Cómo se define en cron? [/INST] La expresión cron es */20 * * 9-11 4,5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los lunes y sábado, pero solo durante los meses de diciembre, enero y febrero? [/INST] La expresión cron es 0 * * 12-2 1,6.[/END]", gestorjobs
+"[INST] Necesito una tarea que se ejecute cada 4 horas los martes, jueves y domingo, pero solo durante los meses de marzo, abril y mayo. ¿Cuál es la expresión cron correspondiente? [/INST] La expresión cron es 0 */4 * 3-5 2,4,7.[/END]", gestorjobs
+"[INST] Quiero que una tarea se ejecute cada 10 minutos los miércoles y sábado, pero solo durante los meses de junio, julio y agosto. ¿Cómo se establece en cron? [/INST] La expresión cron es */10 * * 6-8 3,6.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada 50 minutos los lunes, viernes y domingo, pero solo durante los meses de septiembre, octubre y noviembre? [/INST] La expresión cron es */50 * * 9-11 1,5,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute todos los lunes a las 9:00 AM? [/INST] La expresión cron es 0 9 * * 1.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea todos los martes a las 10:30 PM? [/INST] La expresión cron es 30 22 * * 2.[/END]", gestorjobs
+"[INST] ¿Cómo se configura una tarea para que se ejecute cada día a medianoche? [/INST] La expresión cron es 0 0 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la sintaxis cron para ejecutar una tarea todos los viernes a las 8:00 AM? [/INST] La expresión cron es 0 8 * * 5.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute cada hora los sábados? [/INST] La expresión cron es 0 * * * 6.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los domingos a las 6:00 PM? [/INST] La expresión cron es 0 18 * * 0.[/END]", gestorjobs
+"[INST] ¿Cómo se configura una tarea para que se ejecute todos los días laborables a las 7:30 AM? [/INST] La expresión cron es 30 7 * * 1-5.[/END]", gestorjobs
+"[INST] ¿Cuál es la sintaxis cron para ejecutar una tarea los fines de semana a las 11:00 PM? [/INST] La expresión cron es 0 23 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute el primer día de cada mes a las 12:00 PM? [/INST] La expresión cron es 0 12 1 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea los últimos días de cada mes a las 9:00 AM? [/INST] La expresión cron es 0 9 28-31 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se configura una tarea para que se ejecute cada 15 minutos? [/INST] La expresión cron es */15 * * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la sintaxis cron para ejecutar una tarea cada hora a los minutos 20 y 50? [/INST] La expresión cron es 20,50 * * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute todos los días a las 3:00 AM? [/INST] La expresión cron es 0 3 * * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 5 minutos durante las horas pares del día? [/INST] La expresión cron es */5 */2 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo se configura una tarea para que se ejecute a las 12:00 PM los días 15 de cada mes? [/INST] La expresión cron es 0 12 15 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la sintaxis cron para ejecutar una tarea cada minuto los días 1 y 15 de cada mes? [/INST] La expresión cron es * * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se programa una tarea para que se ejecute todos los años el 1 de enero a las 00:00? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] ¿Cuál es la expresión cron para ejecutar una tarea cada 10 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */10 * 3-5 * *.[/END]", gestorjobs
+"[INST] ¿Cómo se configura una tarea para que se ejecute a las 6:30 PM el primer día de cada mes? [/INST] La expresión cron es 30 18 1 * *.[/END]", gestorjobs
+"[INST] ¿Cuál es la sintaxis cron para ejecutar una tarea cada hora de lunes a viernes a las 9:00 AM? [/INST] La expresión cron es 0 9 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada hora los lunes. [/INST] La expresión cron es 0 * * * 1.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los años el 1 de enero a las 12:00 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada minuto durante los meses de marzo, abril y mayo? [/INST] La expresión cron es * * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 15 minutos los días impares de cada mes. [/INST] La expresión cron es */15 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días laborables a las 9:30 AM? [/INST] La expresión cron es 30 9 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los sábados y domingos. [/INST] La expresión cron es 0 * * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM todos los días. [/INST] La expresión cron es 0 18 * * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM el día 15 de cada mes. [/INST] La expresión cron es 0 12 15 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 4:30 AM. [/INST] La expresión cron es 30 4 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada hora los martes y jueves. [/INST] La expresión cron es 0 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 25 de diciembre a las 8:00 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 8 25 12 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 10 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 20 minutos los días pares de cada mes. [/INST] La expresión cron es */20 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:45 PM? [/INST] La expresión cron es 45 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 3:00 PM los días 10 de cada mes. [/INST] La expresión cron es 0 15 10 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 5 minutos durante las horas impares del día? [/INST] La expresión cron es */5 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 7:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 7 1,15 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 6:00 AM. [/INST] La expresión cron es 0 6 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 30 minutos los lunes y viernes. [/INST] La expresión cron es */30 * * * 1,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 0 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */15 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:30 PM? [/INST] La expresión cron es 30 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 4:00 PM los días 5 de cada mes. [/INST] La expresión cron es 0 16 5 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 6:30 AM. [/INST] La expresión cron es 30 6 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada día a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 30 minutos los días laborables (de lunes a viernes)? [/INST] La expresión cron es */30 * * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute cada 5 minutos durante la primera hora de cada día? [/INST] La expresión cron es */5 0 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 3:30 PM los domingos. [/INST] La expresión cron es 30 15 * * 0.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 8:00 AM los días hábiles (de lunes a viernes) del mes de octubre. [/INST] La expresión cron es 0 8 * 10 1-5.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante la jornada laboral (de 9:00 AM a 6:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM el último día de cada mes. [/INST] La expresión cron es 0 12 L * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 2 horas y media los días impares de cada mes? [/INST] La expresión cron es 0 */2 * 1-31/2 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 15 minutos los sábados. [/INST] La expresión cron es */15 * * * 6.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 10 minutos los días 10 y 20 de cada mes? [/INST] La expresión cron es */10 * 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1, 5, y 10 de cada mes. [/INST] La expresión cron es 0 * 1,5,10 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 8:00 AM los días laborables (de lunes a viernes) del mes de mayo? [/INST] La expresión cron es 0 8 * 5 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 6:30 AM los domingos y miércoles. [/INST] La expresión cron es 30 6 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas laborales (de 9:00 AM a 5:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 PM los días 15 y 30 de cada mes. [/INST] La expresión cron es 0 21 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 5 minutos durante la mañana (de 6:00 AM a 12:00 PM) de lunes a viernes? [/INST] La expresión cron es */5 6-12 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 4 horas los sábados y domingos. [/INST] La expresión cron es 0 */4 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 3:00 PM los días hábiles (de lunes a viernes) del mes de diciembre? [/INST] La expresión cron es 0 15 * 12 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 7:00 AM los días 1 de enero, abril, julio y octubre. [/INST] La expresión cron es 0 7 1 1,4,7,10 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada día a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 30 minutos los días laborables (de lunes a viernes)? [/INST] La expresión cron es */30 * * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 8:00 AM los días hábiles (de lunes a viernes) del mes de octubre? [/INST] La expresión cron es 0 8 * 10 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 6:30 AM los domingos y miércoles. [/INST] La expresión cron es 30 6 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas laborales (de 9:00 AM a 5:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 PM los días 15 y 30 de cada mes. [/INST] La expresión cron es 0 21 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 5 minutos durante la mañana (de 6:00 AM a 12:00 PM) de lunes a viernes? [/INST] La expresión cron es */5 6-12 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 4 horas los sábados y domingos. [/INST] La expresión cron es 0 */4 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 3:00 PM los días hábiles (de lunes a viernes) del mes de diciembre? [/INST] La expresión cron es 0 15 * 12 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:30 AM. [/INST] La expresión cron es 30 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos los lunes y jueves? [/INST] La expresión cron es */15 * * * 1,4.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada hora los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 * 10,20 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 5 minutos los días 5 y 15 de cada mes. ¿Cómo se configura en cron? [/INST] La expresión cron es */5 * 5,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute a las 3:45 PM los sábados? [/INST] La expresión cron es 45 15 * * 6.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 */2 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 10 minutos los días impares de cada mes? [/INST] La expresión cron es */10 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 9:30 AM los días laborables (de lunes a viernes) del mes de abril. [/INST] La expresión cron es 30 9 * 4 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 2, 7 y 22 de cada mes. [/INST] La expresión cron es 0 * 2,7,22 * *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute a las 6:00 AM el primer día de cada mes? [/INST] La expresión cron es 0 6 1 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada día a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 30 minutos los días laborables (de lunes a viernes)? [/INST] La expresión cron es */30 * * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 8:00 AM los días hábiles (de lunes a viernes) del mes de octubre? [/INST] La expresión cron es 0 8 * 10 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 6:30 AM los domingos y miércoles. [/INST] La expresión cron es 30 6 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas laborales (de 9:00 AM a 5:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 PM los días 15 y 30 de cada mes. [/INST] La expresión cron es 0 21 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 5 minutos durante la mañana (de 6:00 AM a 12:00 PM) de lunes a viernes? [/INST] La expresión cron es */5 6-12 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 4 horas los sábados y domingos. [/INST] La expresión cron es 0 */4 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 3:00 PM los días hábiles (de lunes a viernes) del mes de diciembre? [/INST] La expresión cron es 0 15 * 12 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los días a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 30 minutos los días laborables (de lunes a viernes)? [/INST] La expresión cron es */30 * * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 8:00 AM los días hábiles (de lunes a viernes) del mes de octubre? [/INST] La expresión cron es 0 8 * 10 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 6:30 AM los domingos y miércoles. [/INST] La expresión cron es 30 6 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas laborales (de 9:00 AM a 5:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 PM los días 15 y 30 de cada mes. [/INST] La expresión cron es 0 21 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 5 minutos durante la mañana (de 6:00 AM a 12:00 PM) de lunes a viernes? [/INST] La expresión cron es */5 6-12 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 4 horas los sábados y domingos. [/INST] La expresión cron es 0 */4 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 3:00 PM los días hábiles (de lunes a viernes) del mes de diciembre? [/INST] La expresión cron es 0 15 * 12 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los días a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 30 minutos los días laborables (de lunes a viernes)? [/INST] La expresión cron es */30 * * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 8:00 AM los días hábiles (de lunes a viernes) del mes de octubre? [/INST] La expresión cron es 0 8 * 10 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 6:30 AM los domingos y miércoles. [/INST] La expresión cron es 30 6 * * 0,3.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas laborales (de 9:00 AM a 5:00 PM) de lunes a viernes? [/INST] La expresión cron es */20 9-17 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 PM los días 15 y 30 de cada mes. [/INST] La expresión cron es 0 21 15,30 * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 5 minutos durante la mañana (de 6:00 AM a 12:00 PM) de lunes a viernes? [/INST] La expresión cron es */5 6-12 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 4 horas los sábados y domingos. [/INST] La expresión cron es 0 */4 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Puedes proporcionarme una tarea cron que se ejecute a las 3:00 PM los días hábiles (de lunes a viernes) del mes de diciembre? [/INST] La expresión cron es 0 15 * 12 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 5:30 AM. [/INST] La expresión cron es 30 5 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 45 minutos los martes y jueves. [/INST] La expresión cron es */45 * * * 2,4.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 12:00 PM. ¿Cómo se configura en cron? [/INST] La expresión cron es 0 12 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 20 minutos durante los meses de marzo, abril y mayo? [/INST] La expresión cron es */20 * * 3-5 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días impares de cada mes. [/INST] La expresión cron es 0 * 1-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 11:15 PM? [/INST] La expresión cron es 15 23 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 2 horas los fines de semana. [/INST] La expresión cron es 0 */2 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 5:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 17 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas pares del día? [/INST] La expresión cron es */10 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 9:00 AM los días 5 y 25 de cada mes. [/INST] La expresión cron es 0 9 5,25 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:45 AM. [/INST] La expresión cron es 45 7 * * *.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se active cada 20 minutos los lunes, miércoles y viernes. [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada año el 1 de enero a las 3:30 AM. ¿Cómo se configura en cron? [/INST] La expresión cron es 30 3 1 1 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 15 minutos durante los meses de junio, julio y agosto? [/INST] La expresión cron es */15 * * 6-8 *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada hora los días pares de cada mes. [/INST] La expresión cron es 0 * 2-31/2 * *.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute todos los días a las 10:45 PM? [/INST] La expresión cron es 45 22 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active cada 3 horas los sábados y domingos. [/INST] La expresión cron es 0 */3 * * 6,7.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute a las 6:00 PM los días 15 de cada mes. [/INST] La expresión cron es 0 18 15 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 10 minutos durante las horas impares del día? [/INST] La expresión cron es */10 1-23/2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:30 AM los días 10 y 20 de cada mes. [/INST] La expresión cron es 30 8 10,20 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 6:00 AM. [/INST] La expresión cron es 0 6 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 20 minutos los días lunes, miércoles y viernes? [/INST] La expresión cron es */20 * * * 1,3,5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los días a las 9:00 AM. [/INST] La expresión cron es 0 9 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute todos los días a las 7:00 AM. [/INST] La expresión cron es 0 7 * * *.[/END]", gestorjobs
+"[INST] ¿Cómo puedo configurar una tarea cron para que se ejecute cada 15 minutos de lunes a viernes? [/INST] La expresión cron es */15 * * * 1-5.[/END]", gestorjobs
+"[INST] Proporcióname una tarea cron que se ejecute cada hora los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 * 1,15 * *.[/END]", gestorjobs
+"[INST] Necesito una tarea cron que se ejecute cada 10 minutos durante los meses de verano (junio, julio y agosto). ¿Cómo se configura en cron? [/INST] La expresión cron es */10 * * 6-8 *.[/END]", gestorjobs
+"[INST] ¿Puedes darme una tarea cron que se ejecute cada 30 minutos durante las horas pares del día? [/INST] La expresión cron es */30 */2 * * *.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se active a las 9:00 PM los días sábados y domingos. [/INST] La expresión cron es 0 21 * * 6,7.[/END]", gestorjobs
+"[INST] ¿Podrías proporcionarme una tarea cron que se ejecute cada 4 horas los días laborables (de lunes a viernes)? [/INST] La expresión cron es 0 */4 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 12:00 PM los días 10 y 20 de cada mes. [/INST] La expresión cron es 0 12 10,20 * *.[/END]", gestorjobs
+"[INST] ¿Podrías darme una tarea cron que se active cada 20 minutos durante las horas de la mañana (de 7:00 AM a 11:00 AM) de lunes a viernes? [/INST] La expresión cron es */20 7-11 * * 1-5.[/END]", gestorjobs
+"[INST] Dame una tarea cron que se ejecute a las 8:00 AM los días 1 y 15 de cada mes. [/INST] La expresión cron es 0 8 1,15 * *.[/END]", gestorjobs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
