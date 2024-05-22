@@ -1,0 +1,7 @@
+transformers==4.40.2
+bitsandbytes==0.43.1
+peft==0.11.0
+fastapi==0.111.0
+accelerate==0.30.1
+#torch
+#Borrar la carpeta de ~/.cache/huggingface/ y cerrar y abrir vscso
