@@ -1,0 +1,45 @@
+name: Construir contenedor de la aplicación
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-push-container:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout del Repositorio
+        uses: actions/checkout@v2
+      
+      - name: Construir crt del servidor 
+        run: echo "${{ secrets.PEM_CERT }}" > micros-gestor-jobs.pem
+
+      - name: Construir contenedor Docker
+        run: docker build -t micro-sistema-apoyo .
+
+      - name: Obtener la fecha actual
+        id: get_date
+        run: echo "::set-output name=date::$(date +'%Y%m%d%H%M')"
+
+      - name: Etiquetar contenedor Docker
+        run: |
+          docker tag micro-sistema-apoyo ghcr.io/forte-gestorjobs/micro-sistema-apoyo:${{ steps.get_date.outputs.date }}
+          docker tag micro-sistema-apoyo ghcr.io/forte-gestorjobs/micro-sistema-apoyo:latest
+
+      - name: Iniciar sesión en GHCR
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Subir contenedor Docker a GHCR 
+        run: |
+          docker push ghcr.io/forte-gestorjobs/micro-sistema-apoyo:${{ steps.get_date.outputs.date }}
+          docker push ghcr.io/forte-gestorjobs/micro-sistema-apoyo:latest
