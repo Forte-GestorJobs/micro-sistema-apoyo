@@ -1,9 +1,9 @@
 name: Construir contenedor de la aplicación
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - dockerizar_api
 
 jobs:
   build-and-push-container:
